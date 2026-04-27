@@ -82,6 +82,11 @@ body {
     text-shadow: 0 0 10px lightblue;
 }
 
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
 /* main section */
 
 .main {
@@ -157,10 +162,11 @@ body {
     flex: 1;
 }
 
-.art a {
-    color: #146b24;
+.address {
     font-weight: 700;
-    overflow-wrap: anywhere;
+    color: green;
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
 }
 
 /* footer section */
